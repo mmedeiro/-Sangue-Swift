@@ -9,21 +9,28 @@
 /* Begin PBXBuildFile section */
 		4B4B58AA1C77489E0004AC85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B58A91C77489E0004AC85 /* AppDelegate.swift */; };
 		4B4B58AC1C77489E0004AC85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B58AB1C77489E0004AC85 /* ViewController.swift */; };
-		4B4B58AF1C77489E0004AC85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4B58AD1C77489E0004AC85 /* Main.storyboard */; };
 		4B4B58B21C77489E0004AC85 /* _Sangue_Swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B58B01C77489E0004AC85 /* _Sangue_Swift.xcdatamodeld */; };
-		4B4B58B41C77489E0004AC85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B4B58B31C77489E0004AC85 /* Assets.xcassets */; };
 		4B4B58B71C77489E0004AC85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4B58B51C77489E0004AC85 /* LaunchScreen.storyboard */; };
+		4B4B58C01C774BB00004AC85 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4B58BF1C774BB00004AC85 /* HealthKit.framework */; };
+		4B4B58C21C774BF20004AC85 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B58C11C774BF20004AC85 /* User.swift */; };
+		4B4B58C41C774CD60004AC85 /* HealthKitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B58C31C774CD60004AC85 /* HealthKitData.swift */; };
+		4B4B58DA1C85CA1D0004AC85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4B58D91C85CA1D0004AC85 /* Main.storyboard */; };
+		4B4B58DC1C85CC540004AC85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B4B58DB1C85CC540004AC85 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B4B58A61C77489D0004AC85 /* +Sangue-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "+Sangue-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B4B58A91C77489E0004AC85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B4B58AB1C77489E0004AC85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4B4B58AE1C77489E0004AC85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B4B58B11C77489E0004AC85 /* _Sangue_Swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _Sangue_Swift.xcdatamodel; sourceTree = "<group>"; };
-		4B4B58B31C77489E0004AC85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B4B58B61C77489E0004AC85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B4B58B81C77489E0004AC85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B4B58BE1C774BB00004AC85 /* +Sangue-Swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "+Sangue-Swift.entitlements"; sourceTree = "<group>"; };
+		4B4B58BF1C774BB00004AC85 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		4B4B58C11C774BF20004AC85 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../User.swift; sourceTree = "<group>"; };
+		4B4B58C31C774CD60004AC85 /* HealthKitData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthKitData.swift; sourceTree = "<group>"; };
+		4B4B58D91C85CA1D0004AC85 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4B4B58DB1C85CC540004AC85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B4B58C01C774BB00004AC85 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +48,7 @@
 		4B4B589D1C77489D0004AC85 = {
 			isa = PBXGroup;
 			children = (
+				4B4B58BF1C774BB00004AC85 /* HealthKit.framework */,
 				4B4B58A81C77489D0004AC85 /* +Sangue-Swift */,
 				4B4B58A71C77489D0004AC85 /* Products */,
 			);
@@ -56,11 +65,14 @@
 		4B4B58A81C77489D0004AC85 /* +Sangue-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				4B4B58BE1C774BB00004AC85 /* +Sangue-Swift.entitlements */,
 				4B4B58A91C77489E0004AC85 /* AppDelegate.swift */,
 				4B4B58AB1C77489E0004AC85 /* ViewController.swift */,
-				4B4B58AD1C77489E0004AC85 /* Main.storyboard */,
-				4B4B58B31C77489E0004AC85 /* Assets.xcassets */,
+				4B4B58C11C774BF20004AC85 /* User.swift */,
+				4B4B58C31C774CD60004AC85 /* HealthKitData.swift */,
+				4B4B58D91C85CA1D0004AC85 /* Main.storyboard */,
 				4B4B58B51C77489E0004AC85 /* LaunchScreen.storyboard */,
+				4B4B58DB1C85CC540004AC85 /* Assets.xcassets */,
 				4B4B58B81C77489E0004AC85 /* Info.plist */,
 				4B4B58B01C77489E0004AC85 /* _Sangue_Swift.xcdatamodeld */,
 			);
@@ -99,6 +111,12 @@
 				TargetAttributes = {
 					4B4B58A51C77489D0004AC85 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = GAANZNADLG;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -126,8 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B4B58B71C77489E0004AC85 /* LaunchScreen.storyboard in Resources */,
-				4B4B58B41C77489E0004AC85 /* Assets.xcassets in Resources */,
-				4B4B58AF1C77489E0004AC85 /* Main.storyboard in Resources */,
+				4B4B58DC1C85CC540004AC85 /* Assets.xcassets in Resources */,
+				4B4B58DA1C85CA1D0004AC85 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B4B58C21C774BF20004AC85 /* User.swift in Sources */,
 				4B4B58AC1C77489E0004AC85 /* ViewController.swift in Sources */,
+				4B4B58C41C774CD60004AC85 /* HealthKitData.swift in Sources */,
 				4B4B58AA1C77489E0004AC85 /* AppDelegate.swift in Sources */,
 				4B4B58B21C77489E0004AC85 /* _Sangue_Swift.xcdatamodeld in Sources */,
 			);
@@ -147,14 +167,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4B4B58AD1C77489E0004AC85 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4B4B58AE1C77489E0004AC85 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4B4B58B51C77489E0004AC85 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -251,10 +263,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "+Sangue-Swift/+Sangue-Swift.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "+Sangue-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Bepid.-Sangue-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -262,10 +280,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "+Sangue-Swift/+Sangue-Swift.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "+Sangue-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Bepid.-Sangue-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -288,6 +311,7 @@
 				4B4B58BD1C77489E0004AC85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
